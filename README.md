@@ -10,9 +10,11 @@ This is a bike share project from one of the Udacity course.
 This is an interactive python project where we have bike sharing data from three different major cities (e.g. Chicago, New York City, and Washington D.C.) in 2017. The program gives the user options to choose the city, time of the year, and day of the week. Then, it gives statistics related to the data.
 
 ### Files used
-- csv files.
-- bikeshare.py.
+- Bike sharing data are available in the form of comma seperated values (CSV) files for three different cities.
+- bikeshare.py is the main python program.
 
 ### Credits
-The credits goes to Udacity. This is the git project from a course called programming for Data Science with Python (this is a nano degree program).
+The credits goes to Udacity. This is the git project from a course called programming for Data Science with Python (this is a nano degree program). It has been forked from SudKul from Udacity.
 
+### Known bugs
+As of now, there is no bug detected. Please let me know if you find any.
