@@ -7,7 +7,7 @@ This repository first created on December 13<sup>th</sup>, 2021.
 This is a bike share project from one of the Udacity course.
 
 ### Description
-This is an interactive python project where we have bike sharing data from three different major cities in 2017. The program gives the user options to choose the city, time of the year, and day of the week. Then, it gives statistics related to the data.
+This is an interactive python project where we have bike sharing data from three different major cities (e.g. Chicago, New York City, and Washington D.C.) in 2017. The program gives the user options to choose the city, time of the year, and day of the week. Then, it gives statistics related to the data.
 
 ### Files used
 - csv files.
