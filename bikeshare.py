@@ -219,21 +219,21 @@ def station_stats(df):
     print('-'*40)
 
 # ====================================================================================================================
-def convert(seconds):
+def convert(sec):
     '''
     convert seconds to days, hours, minute, and seconds format.
 
     Args:
        - seconds
     '''
-    day      = seconds // (24 * 3600)
-    seconds %= (24 * 3600)
-    hour     = seconds // 3600
-    seconds %= 3600
-    minutes  = seconds // 60
-    seconds %= 60
+    day   = sec // (24 * 3600)
+    sec  %= (24 * 3600)
+    hour  = sec // 3600
+    sec  %= 3600
+    mins  = sec // 60
+    sec  %= 60
     
-    return "%i days %d:%02d:%02d" %(day, hour, minutes, seconds)
+    return '%i days %d:%02d:%02d'%(day, hour, mins, sec)
 
 # ====================================================================================================================
 def trip_duration_stats(df):
