@@ -17,6 +17,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
+
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     # --------------------------------------------------------------------------------------------------
     running = True
@@ -194,7 +195,7 @@ def time_stats(df):
     # display the most common start hour
     print('The most common start hour: ', df['Hour'].mode()[0])
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('\nThis took {} seconds.'.format(time.time() - start_time))
     print('-'*40)
 
 # ====================================================================================================================
@@ -214,7 +215,7 @@ def station_stats(df):
     print('The most frequent combination of start station and end station trip: '+
           ' %s - %s'%df.groupby(['Start Station', 'End Station']).size().idxmax())
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('\nThis took {} seconds.'.format(time.time() - start_time))
     print('-'*40)
 
 # ====================================================================================================================
@@ -247,7 +248,7 @@ def trip_duration_stats(df):
     # display mean travel time
     print('The mean travel time: {}'.format(convert(df['Trip Duration'].mean())))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('\nThis took {} seconds.'.format(time.time() - start_time))
     print('-'*40)
 
 # ====================================================================================================================
@@ -277,7 +278,7 @@ def user_stats(df):
     else:
         print('Year of birth is not in the data.')
     
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('\nThis took {} seconds.'.format(time.time() - start_time))
     print('-'*40)
 
 # ====================================================================================================================
